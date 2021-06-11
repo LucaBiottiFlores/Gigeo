@@ -1,0 +1,25 @@
+// Hero Section Styles
+
+// Mobile
+
+.hero {
+    background-image: url("../../assets/img/image-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13vh;
+}
+
+// Desktop
+
+@media (min-width: 992px) {
+
+    .hero {
+        background-image: url("../../assets/img/image-banner.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+    }
+
+}

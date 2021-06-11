@@ -1,0 +1,38 @@
+// Buttons Styles
+
+// Primary Button
+    .primary-button {
+        background-color: $celeste;
+        color: $white;
+        border-radius: 0%;
+        padding: .3em .7em;
+        align-self: center;
+        margin-top: .5em;
+        &:hover {
+            color: $isabeline;
+        &:focus {
+            color: $grisoscuro;
+            background-color: $white;
+            border: 1px $smokyblack solid;
+        }
+        }
+    }
+
+// Secondary Button
+
+.secondary-button {
+    background-color: $rojo;
+    color: $white;
+    border-radius: 0%;
+    padding: .3em .9em;
+    align-self: center;
+    margin-top: .5em;
+    &:hover {
+        color: $isabeline;
+    &:focus {
+        color: $grisoscuro;
+        background-color: $white;
+        border: 1px $smokyblack solid;
+    }
+    }
+}

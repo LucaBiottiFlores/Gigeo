@@ -1,0 +1,82 @@
+// Artist Section Styles
+
+.artist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5vh;
+
+    &__picture {
+        display:flex;
+        
+    }
+
+    &__content {
+        display:flex;
+        
+    }
+
+    &__img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        
+    }
+    &__name {
+        font-size: $xx-large;
+        padding-left: 20px;
+    }
+    &__followers {
+        font-size: $x-large;
+        color: $grisoscuro;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .artist {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-content: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    
+        &__picture {
+            display:flex;
+            
+        }
+    
+        &__content {
+            display:flex;
+            
+        }
+    
+        &__img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            
+        }
+        &__name {
+            font-size: $xx-large;
+            padding-left: 20px;
+        }
+        &__followers {
+            font-size: $x-large;
+            color: $grisoscuro;
+            padding-left: 20px;
+        }
+    
+    }
+    // Buttons Position
+        .artist__buttons {
+            margin-left: auto;
+        }
+        .primary-button {
+            margin-right: 1vw;
+        }
+
+}

@@ -1,0 +1,24 @@
+// CARD COMPONENT
+
+
+// Bootstrap Override Variables
+
+$card-border-color: $white;
+$border-radius: 0rem;
+$card-border-radius: 0rem; //no me funcionó dejar bordes rectos haciendo override
+$inner-border-radius: 0rem;
+$card-border-width: 0rem;
+
+// Cards Styles
+
+.card {
+    border-color: $card-border-color;
+    border-radius: $card-border-radius;
+    border-width: $card-border-width;
+    width: 75vw;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+}

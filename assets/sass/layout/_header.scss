@@ -1,0 +1,38 @@
+//navbar styles
+
+.header {
+    .navbar {
+        background-color: $white;
+    }
+}
+
+.logo {
+    font-size: $xxx-large;
+    font-weight: $bold;
+    margin-left: 5vw;
+}
+
+.art {
+    font-size: $medium;
+    margin-right: auto;
+    align-self: flex-start;
+}
+
+.navbar-nav {
+    text-align: end;
+}
+
+
+
+
+@media (min-width: 992px) {
+    .icono {
+        padding-right: 2vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .icono {
+        display: none;
+    }
+}
